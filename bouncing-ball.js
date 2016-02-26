@@ -41,7 +41,10 @@ BouncingBall.prototype = {
   },
 
   move: function(){
-    this.direction = new p5.Vector(random(-2,2),random(-2,2));
+    //this.direction = new p5.Vector(random(-2,2),random(-2,2));
+    //this.direction.setMag(2);
+    this.direction=new p5.Vector(2,0);
+    //this.direction.rotate(random(0;Pi*2));
 
   },
 
