@@ -15,6 +15,9 @@
 
 // the arguments to the constructor function should represent the BouncingBall's starting position
 var BouncingBall = function (startingX, startingY) {
+  this.x = x,
+  this.y = y,
+  radius = 15
 
 };
 
