@@ -30,7 +30,7 @@ setup = function () {
 
 draw = function() {
 
-  background(0); // refresh the background
+  background(50); // refresh the background
 
   bouncingBalls.forEach(updateAndDisplay); // update and display each ball
 
