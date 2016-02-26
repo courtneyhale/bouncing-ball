@@ -40,8 +40,8 @@ BouncingBall.prototype = {
     //this.move();
   },
 
-  move: function(directionX, directionY){
-    this.direction = createVector(directionX, directionY);
+  move: function(){
+    this.direction = new p5.Vector(random(-2,2),random(-2,2));
 
   },
 
